@@ -1,0 +1,17 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=3021
+
+findfiles.vim is simple script that helps with finding files, using `find . -iname`
+
+Usage:
+ * type  `:Find <file_name> [<find_params> ]` to show list of files that matches
+ * type `\Find` to call `:Find` with `*<cword>*` as search string
+
+Results window:
+ * select any file any press <Return> to open it
+ * press 'o' to open selected file and close results window
+ * press 'q' to close results window
+
+
+Screenshots: 
+ * http://wstaw.org/m/2010/03/17/2010-03-17-220325_688x314_scrot.png
+ * http://wstaw.org/m/2010/03/20/2010-03-20-094909_661x285_scrot.png
